@@ -1,0 +1,16 @@
+{
+  "name": "garaget-pi",
+  "version": "1.0.0",
+  "description": "Read si7021 I2C sensor. Enable I2C on pi and run node 8.x, since issuces with si7021-sensor package on newer node versions",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mqtt": "^3.0.0",
+    "si7021-sensor": "^0.0.7",
+    "dotenv": "^8.2.0"
+  }
+}
